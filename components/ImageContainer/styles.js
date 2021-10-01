@@ -2,11 +2,11 @@ import {StyleSheet} from 'react-native';
 
 export default StyleSheet.create({
   container: {
-    paddingVertical: 2,
+    width: '60%',
+    marginLeft: 10,
   },
   mainTitle: {
     fontSize: 16,
     fontWeight: 'bold',
-    padding: 1,
   },
 });

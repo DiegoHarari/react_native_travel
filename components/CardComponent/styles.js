@@ -2,15 +2,19 @@ import {StyleSheet} from 'react-native';
 
 export default StyleSheet.create({
   mainContainer: {
-    width: '100%',
+    flex: 1,
     padding: 10,
   },
   cardContainer: {
-    borderWidth: 2,
+    borderWidth: 0.5,
     borderRadius: 5,
     marginVertical: 10,
     flexDirection: 'row',
-    width: 360,
-    padding: 10,
+    width: 350,
+  },
+  infoContainer: {
+    borderWidth: 0.5,
+    padding: 5,
+    width: '50%',
   },
 });
