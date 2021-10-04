@@ -1,9 +1,7 @@
 import React from 'react';
-import {useQuery, QueryClient} from 'react-query';
+import {useQuery} from 'react-query';
 import {View} from 'react-native';
 import {CardContainer} from '../components/CardComponent/index';
-
-const queryClient = new QueryClient();
 
 export const Hotels = () => {
   const {isLoading, error, data} = useQuery('repoData', () =>

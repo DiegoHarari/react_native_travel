@@ -7,7 +7,7 @@ export const ImageContainer = ({source}) => {
   const renderItem = ({item}) => {
     return (
       <Image
-        style={{width: 170, height: 230}}
+        style={styles.container}
         source={{
           uri: item,
         }}
